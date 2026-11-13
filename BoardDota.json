@@ -1,7 +1,7 @@
 {
   "SaveName": "Линии и Троны",
-  "EpochTime": 1794551669,
-  "Date": "11/13/2026, 1:34:29 PM",
+  "EpochTime": 1794551824,
+  "Date": "11/13/2026, 1:37:04 PM",
   "VersionNumber": "v13.2.2",
   "GameMode": "Линии и Троны",
   "GameType": "Game",
@@ -40,12 +40,12 @@
     "DisableUnused": false,
     "Hiding": 0
   },
-  "LuaScript": "-- Через 3 секунды после загрузки фиксируем карту, планшеты и листы правил, чтобы их не сдвинуть случайно.\nlocal LOCK = { \"3f1d44\", \"1e08d3\", \"95023b\", \"ad58e5\", \"bb5c84\", \"444e2e\", \"5c8862\", \"3e7bcc\", \"af5c94\", \"d2e978\", \"d9b474\", \"891d1c\", \"eae88b\", \"ef8df0\", \"b788e7\" }\nfunction onLoad()\n  Wait.time(function()\n    for _, g in ipairs(LOCK) do\n      local o = getObjectFromGUID(g)\n      if o then o.setLock(true) end\n    end\n  end, 3)\nend\n",
+  "LuaScript": "-- Через 3 секунды после загрузки фиксируем карту, планшеты и листы правил, чтобы их не сдвинуть случайно.\nlocal LOCK = { \"a90351\", \"1e2d16\", \"7df90d\", \"0382a4\", \"02561e\", \"512ddc\", \"9b0084\", \"a0daa9\", \"e4ba98\", \"f28fc3\", \"a85910\", \"f20838\", \"163137\", \"8212cd\", \"e29de4\", \"d93b31\" }\nfunction onLoad()\n  Wait.time(function()\n    for _, g in ipairs(LOCK) do\n      local o = getObjectFromGUID(g)\n      if o then o.setLock(true) end\n    end\n  end, 3)\nend\n",
   "LuaScriptState": "",
   "XmlUI": "",
   "ObjectStates": [
     {
-      "GUID": "3f1d44",
+      "GUID": "a90351",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 0,
@@ -3709,7 +3709,7 @@
       ]
     },
     {
-      "GUID": "15bd73",
+      "GUID": "742fc9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.738,
@@ -3766,7 +3766,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "e2ccd4",
+      "GUID": "c1363f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -18.238,
@@ -3823,7 +3823,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1f5b91",
+      "GUID": "48052b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.738,
@@ -3880,7 +3880,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f49e4f",
+      "GUID": "49b455",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -18.238,
@@ -3937,7 +3937,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "69f9de",
+      "GUID": "c0acd8",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.738,
@@ -3994,7 +3994,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8fc4d3",
+      "GUID": "5c7921",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.738,
@@ -4051,7 +4051,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6590da",
+      "GUID": "186b08",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 18.238,
@@ -4108,7 +4108,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "3ac493",
+      "GUID": "320e96",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.738,
@@ -4165,7 +4165,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ee9afe",
+      "GUID": "c71acd",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 18.238,
@@ -4222,7 +4222,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "62cddd",
+      "GUID": "ecb93f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.738,
@@ -4279,7 +4279,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1e08d3",
+      "GUID": "1e2d16",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -18.375,
@@ -4336,7 +4336,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "998dcd",
+      "GUID": "4ea267",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -16.745,
@@ -4393,7 +4393,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "fdba6b",
+      "GUID": "68f3c2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -17.475,
@@ -4450,7 +4450,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6302d3",
+      "GUID": "ff33d2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -16.745,
@@ -4507,7 +4507,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "a1a6f3",
+      "GUID": "461fd9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -16.745,
@@ -4564,7 +4564,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "29e699",
+      "GUID": "a9f8ed",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -16.745,
@@ -4621,7 +4621,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "00dcc1",
+      "GUID": "dd9b6f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -16.565,
@@ -4678,7 +4678,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "676b72",
+      "GUID": "6b4451",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -15.2217,
@@ -4735,7 +4735,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b366ea",
+      "GUID": "d8da7e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -21.295,
@@ -4792,7 +4792,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "95023b",
+      "GUID": "7df90d",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.025,
@@ -4849,7 +4849,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5e7fa8",
+      "GUID": "e49a0b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.395,
@@ -4906,7 +4906,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "68da90",
+      "GUID": "9839fb",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -10.125,
@@ -4963,7 +4963,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8e9282",
+      "GUID": "6e30cf",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.395,
@@ -5020,7 +5020,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d67b3b",
+      "GUID": "dddf6b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.395,
@@ -5077,7 +5077,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "72229b",
+      "GUID": "3073c0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.395,
@@ -5134,7 +5134,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f9edf1",
+      "GUID": "891b5e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.215,
@@ -5191,7 +5191,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "04fe17",
+      "GUID": "0c9f9f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -9.73,
@@ -5248,7 +5248,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "eec92d",
+      "GUID": "063f71",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -13.945,
@@ -5305,7 +5305,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ad58e5",
+      "GUID": "0382a4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -3.675,
@@ -5362,7 +5362,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "19a4b8",
+      "GUID": "63d88c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.045,
@@ -5419,7 +5419,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f1d5f7",
+      "GUID": "a3c9e6",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.775,
@@ -5476,7 +5476,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bc6fa7",
+      "GUID": "4b2e08",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.045,
@@ -5533,7 +5533,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8be5d7",
+      "GUID": "82945a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.045,
@@ -5590,7 +5590,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "a0c5d2",
+      "GUID": "332871",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.045,
@@ -5647,7 +5647,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8f6c3a",
+      "GUID": "4636c7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -1.865,
@@ -5704,7 +5704,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "a865c0",
+      "GUID": "bdc306",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.38,
@@ -5761,7 +5761,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "98ae3e",
+      "GUID": "b3d107",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -6.595,
@@ -5818,7 +5818,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bb5c84",
+      "GUID": "02561e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 3.675,
@@ -5875,7 +5875,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8842e0",
+      "GUID": "886b3b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.305,
@@ -5932,7 +5932,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "9a8ab2",
+      "GUID": "1b9931",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 4.575,
@@ -5989,7 +5989,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "773c58",
+      "GUID": "1aabac",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.305,
@@ -6046,7 +6046,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "9f9f8c",
+      "GUID": "a0457c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.305,
@@ -6103,7 +6103,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "200315",
+      "GUID": "20b769",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.305,
@@ -6160,7 +6160,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "e8456b",
+      "GUID": "10cafd",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.485,
@@ -6217,7 +6217,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "86f2a6",
+      "GUID": "bdee94",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 5.39,
@@ -6274,7 +6274,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "630b29",
+      "GUID": "70e23d",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 0.755,
@@ -6331,7 +6331,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "444e2e",
+      "GUID": "512ddc",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.025,
@@ -6388,7 +6388,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ee3b6e",
+      "GUID": "da5c87",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.655,
@@ -6445,7 +6445,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "85e563",
+      "GUID": "39c27b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.925,
@@ -6502,7 +6502,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "23dada",
+      "GUID": "431144",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.655,
@@ -6559,7 +6559,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6807d5",
+      "GUID": "3cf1d0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.655,
@@ -6616,7 +6616,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "183ff2",
+      "GUID": "c9de46",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.655,
@@ -6673,7 +6673,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f193c8",
+      "GUID": "d18689",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.835,
@@ -6730,7 +6730,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "3a3deb",
+      "GUID": "aecd54",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 13.16,
@@ -6787,7 +6787,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "11bc57",
+      "GUID": "95af93",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 8.105,
@@ -6844,7 +6844,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5c8862",
+      "GUID": "9b0084",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 18.375,
@@ -6901,7 +6901,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "93fa31",
+      "GUID": "a9f994",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -6958,7 +6958,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d76ee7",
+      "GUID": "bb51b6",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7015,7 +7015,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "348824",
+      "GUID": "67276e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7072,7 +7072,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "037c31",
+      "GUID": "47e116",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7129,7 +7129,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "c22c2d",
+      "GUID": "cb89c5",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7186,7 +7186,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ef6479",
+      "GUID": "0b4659",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7243,7 +7243,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f7b860",
+      "GUID": "7bee38",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7300,7 +7300,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6b39b5",
+      "GUID": "ee88b9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7357,7 +7357,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "a3bbf8",
+      "GUID": "12298f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 19.34,
@@ -7414,7 +7414,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b760f8",
+      "GUID": "7b683a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 21.5138,
@@ -7471,7 +7471,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "0feb00",
+      "GUID": "962c2f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.475,
@@ -7528,7 +7528,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d992bb",
+      "GUID": "2dcce5",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.575,
@@ -7585,7 +7585,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "93766b",
+      "GUID": "c32b02",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.475,
@@ -7642,7 +7642,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "40f4db",
+      "GUID": "e9e0ad",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.575,
@@ -7699,7 +7699,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "679503",
+      "GUID": "b9f7ae",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.475,
@@ -7756,7 +7756,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "4c096a",
+      "GUID": "cabf36",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.575,
@@ -7813,7 +7813,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "dd0c35",
+      "GUID": "2750ae",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.475,
@@ -7870,7 +7870,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "0976dd",
+      "GUID": "542e33",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.575,
@@ -7927,7 +7927,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b57f62",
+      "GUID": "df626c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.475,
@@ -7984,7 +7984,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5ae391",
+      "GUID": "529c6d",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.575,
@@ -8041,7 +8041,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "674512",
+      "GUID": "c56873",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.275,
@@ -8098,7 +8098,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "30d15b",
+      "GUID": "d99a21",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.475,
@@ -8155,7 +8155,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "be84eb",
+      "GUID": "312e0e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.275,
@@ -8212,7 +8212,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6ef211",
+      "GUID": "53ee1b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.475,
@@ -8269,7 +8269,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "af1632",
+      "GUID": "3ab364",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.275,
@@ -8326,7 +8326,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "30a3bd",
+      "GUID": "dd493c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.475,
@@ -8383,7 +8383,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "10c75b",
+      "GUID": "1aa13f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.275,
@@ -8440,7 +8440,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "58d68a",
+      "GUID": "7ba17c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.475,
@@ -8497,7 +8497,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "c1e1be",
+      "GUID": "de0e12",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.275,
@@ -8554,7 +8554,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8848a9",
+      "GUID": "8e5839",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.475,
@@ -8611,7 +8611,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "3e7bcc",
+      "GUID": "a0daa9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 18.375,
@@ -8668,7 +8668,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "dfeb9b",
+      "GUID": "17a1c8",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 16.745,
@@ -8725,7 +8725,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "22fe7f",
+      "GUID": "7643ed",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 17.475,
@@ -8782,7 +8782,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "2b83d9",
+      "GUID": "2074f4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 16.745,
@@ -8839,7 +8839,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bbf724",
+      "GUID": "570f1d",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 16.745,
@@ -8896,7 +8896,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "fbdca3",
+      "GUID": "eaaaf4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 16.745,
@@ -8953,7 +8953,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "153bc4",
+      "GUID": "33b856",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 16.565,
@@ -9010,7 +9010,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "cb6a17",
+      "GUID": "d466a9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 15.2217,
@@ -9067,7 +9067,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f9bfe3",
+      "GUID": "833f2a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 21.295,
@@ -9124,7 +9124,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "af5c94",
+      "GUID": "e4ba98",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.025,
@@ -9181,7 +9181,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "2b51e4",
+      "GUID": "70a48f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.395,
@@ -9238,7 +9238,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f5aa31",
+      "GUID": "4b8aa5",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 10.125,
@@ -9295,7 +9295,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b27896",
+      "GUID": "b63d8e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.395,
@@ -9352,7 +9352,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "704f43",
+      "GUID": "b5766f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.395,
@@ -9409,7 +9409,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6a5f5a",
+      "GUID": "8d2ab2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.395,
@@ -9466,7 +9466,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "aff198",
+      "GUID": "2ba37f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.215,
@@ -9523,7 +9523,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "14dd41",
+      "GUID": "6ef41f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 9.73,
@@ -9580,7 +9580,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "57f811",
+      "GUID": "f211de",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 13.945,
@@ -9637,7 +9637,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d2e978",
+      "GUID": "f28fc3",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 3.675,
@@ -9694,7 +9694,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d9db07",
+      "GUID": "91e53a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.045,
@@ -9751,7 +9751,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "2217f2",
+      "GUID": "46be98",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.775,
@@ -9808,7 +9808,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b3029b",
+      "GUID": "f805d7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.045,
@@ -9865,7 +9865,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "239c31",
+      "GUID": "04cb7f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.045,
@@ -9922,7 +9922,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "763243",
+      "GUID": "693b54",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.045,
@@ -9979,7 +9979,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ba1c79",
+      "GUID": "fa48f4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 1.865,
@@ -10036,7 +10036,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d7741d",
+      "GUID": "8515b1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.38,
@@ -10093,7 +10093,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "eee8aa",
+      "GUID": "8dbf5f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 6.595,
@@ -10150,7 +10150,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d9b474",
+      "GUID": "a85910",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -3.675,
@@ -10207,7 +10207,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1a9eba",
+      "GUID": "67b77e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.305,
@@ -10264,7 +10264,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "e65517",
+      "GUID": "445b36",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -4.575,
@@ -10321,7 +10321,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5dfae4",
+      "GUID": "1405fe",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.305,
@@ -10378,7 +10378,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "2b3400",
+      "GUID": "d528d2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.305,
@@ -10435,7 +10435,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "4e6384",
+      "GUID": "e91731",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.305,
@@ -10492,7 +10492,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "98dd87",
+      "GUID": "a5b50a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.485,
@@ -10549,7 +10549,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "0f5bcf",
+      "GUID": "ff21b2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -5.39,
@@ -10606,7 +10606,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "00638f",
+      "GUID": "d63cb2",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -0.755,
@@ -10663,7 +10663,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "891d1c",
+      "GUID": "f20838",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.025,
@@ -10720,7 +10720,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "86834b",
+      "GUID": "68dbb6",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.655,
@@ -10777,7 +10777,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "412ac0",
+      "GUID": "e8ae5f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.925,
@@ -10834,7 +10834,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "c80b69",
+      "GUID": "5c3649",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.655,
@@ -10891,7 +10891,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bf1857",
+      "GUID": "fb6445",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.655,
@@ -10948,7 +10948,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "20026d",
+      "GUID": "dfe571",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.655,
@@ -11005,7 +11005,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6e7190",
+      "GUID": "78198a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.835,
@@ -11062,7 +11062,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "587aa5",
+      "GUID": "cc6934",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -13.16,
@@ -11119,7 +11119,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "4debb6",
+      "GUID": "498045",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -8.105,
@@ -11176,7 +11176,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "eae88b",
+      "GUID": "163137",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -18.375,
@@ -11233,7 +11233,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6ed7d9",
+      "GUID": "27395e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11290,7 +11290,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6ae717",
+      "GUID": "979c8a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11347,7 +11347,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8df80c",
+      "GUID": "71f3d7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11404,7 +11404,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "aff475",
+      "GUID": "ce5fcb",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11461,7 +11461,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bb1d10",
+      "GUID": "70d8c9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11518,7 +11518,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "fcefd4",
+      "GUID": "435bc9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11575,7 +11575,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "de2f56",
+      "GUID": "96e292",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11632,7 +11632,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1a689c",
+      "GUID": "045fe9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11689,7 +11689,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ad415c",
+      "GUID": "897e6f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -19.34,
@@ -11746,7 +11746,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "542acd",
+      "GUID": "f70bc1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -21.5138,
@@ -11803,7 +11803,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d622b9",
+      "GUID": "005ada",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.475,
@@ -11860,7 +11860,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "cbcc49",
+      "GUID": "e86f99",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.575,
@@ -11917,7 +11917,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "4a201e",
+      "GUID": "3df6d1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.475,
@@ -11974,7 +11974,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5b767d",
+      "GUID": "cd34b1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.575,
@@ -12031,7 +12031,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "14da43",
+      "GUID": "332989",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.475,
@@ -12088,7 +12088,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "fbcf0a",
+      "GUID": "3496d9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.575,
@@ -12145,7 +12145,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "90bf16",
+      "GUID": "c01d36",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.475,
@@ -12202,7 +12202,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "e2fc32",
+      "GUID": "ff1c4f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.575,
@@ -12259,7 +12259,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "0e4592",
+      "GUID": "d42f9b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -23.475,
@@ -12316,7 +12316,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1e1c9d",
+      "GUID": "d6b0d1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -24.575,
@@ -12373,7 +12373,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b3601c",
+      "GUID": "6f2068",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.275,
@@ -12430,7 +12430,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "4023c9",
+      "GUID": "b8cf77",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.475,
@@ -12487,7 +12487,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "97aeda",
+      "GUID": "e0afa9",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.275,
@@ -12544,7 +12544,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "029437",
+      "GUID": "0e2c5e",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.475,
@@ -12601,7 +12601,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8c2225",
+      "GUID": "1d3b59",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.275,
@@ -12658,7 +12658,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "d29ee3",
+      "GUID": "5d30ee",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.475,
@@ -12715,7 +12715,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "396bfa",
+      "GUID": "340a6a",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.275,
@@ -12772,7 +12772,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "5f3e11",
+      "GUID": "da01d8",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.475,
@@ -12829,7 +12829,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "bcef90",
+      "GUID": "85ea04",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 23.275,
@@ -12886,7 +12886,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f34375",
+      "GUID": "728ac1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 24.475,
@@ -12943,7 +12943,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "c4d43e",
+      "GUID": "571a5c",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.6913,
@@ -13000,7 +13000,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "20455e",
+      "GUID": "cbc0e7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.6913,
@@ -13057,7 +13057,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "465254",
+      "GUID": "c61951",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.6913,
@@ -13114,7 +13114,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "604ee3",
+      "GUID": "4518b8",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.6913,
@@ -13171,7 +13171,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "87f132",
+      "GUID": "cbd63b",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.6913,
@@ -13228,7 +13228,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "13ea23",
+      "GUID": "5acacd",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.6913,
@@ -13285,7 +13285,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "9ddc1f",
+      "GUID": "5ed6d1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -7.7942,
@@ -13342,7 +13342,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "f6868b",
+      "GUID": "af8de8",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 7.7942,
@@ -13399,7 +13399,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "1ede66",
+      "GUID": "3e3331",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.5981,
@@ -13456,7 +13456,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "7bb0e8",
+      "GUID": "f6a175",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.5981,
@@ -13513,7 +13513,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "af70b0",
+      "GUID": "3f10d3",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 2.5981,
@@ -13570,7 +13570,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "472820",
+      "GUID": "c1bf2f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -2.5981,
@@ -13627,7 +13627,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "e0d6db",
+      "GUID": "326add",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -11.0418,
@@ -13684,7 +13684,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8bb3e1",
+      "GUID": "96cae4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 11.0418,
@@ -13741,7 +13741,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "84daf5",
+      "GUID": "6f160f",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -7.1447,
@@ -13798,7 +13798,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "471b38",
+      "GUID": "c518e7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 7.1447,
@@ -13855,7 +13855,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "86fa32",
+      "GUID": "ee8201",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -3.2476,
@@ -13912,7 +13912,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "a4bb28",
+      "GUID": "89a4f0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 3.2476,
@@ -13969,7 +13969,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "3dace0",
+      "GUID": "c930be",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.9904,
@@ -14026,7 +14026,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "210ced",
+      "GUID": "3105d0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.9904,
@@ -14083,7 +14083,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "8e23d8",
+      "GUID": "cba4c1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -12.9904,
@@ -14140,7 +14140,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "755b53",
+      "GUID": "42c9e1",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -4.5466,
@@ -14197,7 +14197,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "73a03a",
+      "GUID": "d4cfe7",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -1.9486,
@@ -14254,7 +14254,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ef2960",
+      "GUID": "1dbd00",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 1.9486,
@@ -14311,7 +14311,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "6ec151",
+      "GUID": "6261e4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 4.5466,
@@ -14368,7 +14368,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "435963",
+      "GUID": "d2b4a0",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 12.9904,
@@ -14425,7 +14425,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "ef8df0",
+      "GUID": "8212cd",
       "Name": "Custom_Model",
       "Transform": {
         "posX": -22.938,
@@ -14482,7 +14482,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "b788e7",
+      "GUID": "e29de4",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 22.938,
@@ -14539,7 +14539,7 @@
       "XmlUI": ""
     },
     {
-      "GUID": "074d36",
+      "GUID": "5c0f48",
       "Name": "Custom_Model",
       "Transform": {
         "posX": 18.5913,
@@ -14554,6 +14554,1716 @@
       },
       "Nickname": "Маркер раунда",
       "Description": "",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.95,
+        "g": 0.75,
+        "b": 0.1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d93b31",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 2.5,
+        "posZ": 0,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Резерв",
+      "Description": "По одному экземпляру всего. Копируйте: навести → Ctrl+C → Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/shelf.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/shelf.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 3,
+        "TypeIndex": 0,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e461bc",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": 10.475,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Воин (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-warrior.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-warrior.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "24c120",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": 10.475,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Убийца (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-assassin.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-assassin.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1e19fd",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": 10.475,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маг (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-mage.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-mage.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "688ff4",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": 8.325,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Стрелок (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-archer.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-archer.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "0fb32a",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": 8.325,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Поддержка (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-support.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-support.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "3fb956",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": 8.325,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Отряд крипов (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/creep.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-creep.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "ac1e7e",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": 6.175,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T1 (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-tower1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "6f9353",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": 6.175,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T2 (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-tower2.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "aeef48",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": 6.175,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T3 (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-tower3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5514c8",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": 4.025,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Трон (Команда А)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/throne.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-A-throne.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9df554",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": 4.025,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Кубик Команда А",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/dice-A.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1095e5",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": 1.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Воин (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-warrior.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-warrior.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "4dce4d",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": 1.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Убийца (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-assassin.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-assassin.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "07560a",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": 1.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маг (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-mage.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-mage.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f0a6ca",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -0.275,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Стрелок (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-archer.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-archer.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "5b01c6",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": -0.275,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Поддержка (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/hero-support.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-support.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "1cb28f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": -0.275,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Отряд крипов (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/creep.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-creep.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "826dab",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -2.425,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T1 (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-tower1.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d63021",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": -2.425,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T2 (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-tower2.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "76c9ad",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": -2.425,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Башня T3 (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/tower.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-tower3.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "94913f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -4.575,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Трон (Команда Б)",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/throne.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/fig-B-throne.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 1,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "28766f",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": -4.575,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Кубик Команда Б",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/dice.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/dice-B.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 2,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "14dc31",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -6.725,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер HP",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.85,
+        "g": 0.15,
+        "b": 0.15
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "d6ffd2",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": -6.725,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер щита",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2,
+        "g": 0.75,
+        "b": 0.9
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f1ac81",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": -6.725,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер перезарядки",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.45,
+        "g": 0.3,
+        "b": 0.85
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "9e6a88",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -8.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер «ходил»",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.2,
+        "g": 0.7,
+        "b": 0.25
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e4e6d2",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -31.738,
+        "posY": 3.3,
+        "posZ": -8.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер возрождения",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.1,
+        "g": 0.1,
+        "b": 0.1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "e8a85e",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -29.738,
+        "posY": 3.3,
+        "posZ": -8.875,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер прочности",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
+      "GMNotes": "",
+      "ColorDiffuse": {
+        "r": 0.95,
+        "g": 0.75,
+        "b": 0.1
+      },
+      "Locked": false,
+      "Grid": false,
+      "Snap": false,
+      "IgnoreFoW": false,
+      "MeasureMovement": false,
+      "DragSelectable": true,
+      "Autoraise": true,
+      "Sticky": true,
+      "Tooltip": true,
+      "GridProjection": false,
+      "Hands": false,
+      "CustomMesh": {
+        "MeshURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/marker.obj",
+        "DiffuseURL": "https://raw.githubusercontent.com/VPesherov/board-dota-tts/main/assets/white.png",
+        "NormalURL": "",
+        "ColliderURL": "",
+        "Convex": true,
+        "MaterialIndex": 0,
+        "TypeIndex": 5,
+        "CustomShader": {
+          "SpecularColor": {
+            "r": 0.9,
+            "g": 0.9,
+            "b": 0.9
+          },
+          "SpecularIntensity": 0.15,
+          "SpecularSharpness": 3,
+          "FresnelStrength": 0.1
+        },
+        "CastShadows": true
+      },
+      "LuaScript": "",
+      "LuaScriptState": "",
+      "XmlUI": ""
+    },
+    {
+      "GUID": "f900dc",
+      "Name": "Custom_Model",
+      "Transform": {
+        "posX": -33.738,
+        "posY": 3.3,
+        "posZ": -11.025,
+        "rotX": 0,
+        "rotY": 0,
+        "rotZ": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "scaleZ": 1
+      },
+      "Nickname": "Маркер раунда",
+      "Description": "Образец из резерва — копируйте Ctrl+C / Ctrl+V.",
       "GMNotes": "",
       "ColorDiffuse": {
         "r": 0.95,
